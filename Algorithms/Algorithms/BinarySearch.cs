@@ -11,7 +11,7 @@ namespace Algorithms
         public static void Main(String[] args)
         {
 
-            // taking an 1-D Array 
+            // taking an 1-D Array
             int[] arr = new int[7] { 1, 5, 7, 4, 6, 2, 3 };
 
             // for this method array 
@@ -62,6 +62,7 @@ namespace Algorithms
                 Console.WriteLine("The element to search for "
                                       + "({0}) is at index {1}.",
                                   k, res);
+                Console.Read();
             }
         }
 
